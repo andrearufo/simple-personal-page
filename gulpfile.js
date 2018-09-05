@@ -1,11 +1,8 @@
 'use strict';
 
-var gulp 			= require('gulp');
-var notify 			= require('gulp-notify');
-
-/* Styles */
-
-var sass 			= require('gulp-sass'),
+var gulp 			= require('gulp'),
+	notify 			= require('gulp-notify'),
+	sass 			= require('gulp-sass'),
 	sourcemaps      = require('gulp-sourcemaps'),
 	postcss 		= require('gulp-postcss'),
 	autoprefixer 	= require('autoprefixer');
